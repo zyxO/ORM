@@ -13,7 +13,7 @@ class Model
 {
 
 	protected static $table;
-	protected static $idColumn = 'id';
+	protected static $primaryKey = 'id';
 	protected $dictionary = [];
 	
 	function __construct($dictionary = 	array())
